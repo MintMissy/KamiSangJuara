@@ -9,7 +9,7 @@ const HomeHero = () => {
         <p>Sekolah Kejuruan terbaik di Indonesia Timur</p>
       </div>
 
-      <button className={styles['home-hero-button']}>INFORMASI PPDB</button>
+      <button className={'btn'}>INFORMASI PPDB</button>
     </div>
   );
 };

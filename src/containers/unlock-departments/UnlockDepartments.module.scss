@@ -1,0 +1,61 @@
+.unlock-departments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.unlock-departments-content {
+  width: 60%;
+}
+
+.unlock-departments-content h1 {
+  margin-top: 64px;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.unlock-departments-content p {
+  margin-top: 58px;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.unlock-departments-icons {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+@media screen and (max-width: 789px) {
+  .unlock-departments-content h1 {
+    font-size: 54px;
+    line-height: 60px;
+  }
+
+  .unlock-departments p {
+    font-size: 19px;
+    line-height: 25px;
+    line-height: 140%;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .unlock-departments-content h1 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .unlock-departments p {
+    font-size: 12px;
+    line-height: 150%;
+  }
+}
