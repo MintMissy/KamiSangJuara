@@ -1,0 +1,81 @@
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/home-hero.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 95vh;
+}
+
+.home-hero-content {
+  margin-top: 20vh;
+}
+
+.home-hero-content h1 {
+  font-family: var(--font-primary);
+  font-size: 72px;
+  line-height: 88px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+.home-hero-content p {
+  font-family: var(--font-primary);
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+.home-hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  margin-top: 10vh;
+  background: #E4262C;
+  height: 68px;
+  width: 261px;
+  padding: 24px 56px;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  box-shadow: 0px 100px 80px rgba(228, 38, 44, 0.15), 0px 41.7776px 33.4221px rgba(228, 38, 44, 0.107828), 0px 22.3363px 17.869px rgba(228, 38, 44, 0.0894161), 0px 12.5216px 10.0172px rgba(228, 38, 44, 0.075), 0px 6.6501px 5.32008px rgba(228, 38, 44, 0.0605839), 0px 2.76726px 2.21381px rgba(228, 38, 44, 0.0421718);
+}
+
+@media screen and (max-width: 769px) {
+  .home-hero-content h1 {
+    font-size: 54px;
+    line-height: 60px;
+  }
+
+  .home-hero-content p {
+    font-size: 19px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .home-hero-content h1 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .home-hero-content p,
+  .home-hero-button {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .home-hero-button {
+    padding: 20px;
+  }
+}
