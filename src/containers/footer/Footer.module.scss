@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 51px 72px;
+  background: #333333;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.footer-content {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 138.4%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (max-width: 864px) {
+  .footer {
+    align-items: center;
+    justify-content: center;
+  }
+}
